@@ -17,11 +17,11 @@ entities = model.predict(uploaded_file)
 def hello(dic):
     res = ''
     for (k,v) in dic:
-      res+= k+': '
-      res+= ', '.join(list(v))
-      res+='\n'
+        res+= k+': '
+        res+= ', '.join(list(v))
+        res+='\n'
       
-     return res
+    return res
   
  st.write(hello(entities)
 
